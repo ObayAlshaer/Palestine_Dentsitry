@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+
+body{
+    font-family: "Barlow", sans-serif;
+    line-height: 1.7;
+    color:rgb(107, 107, 107)
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700 !important;
+
+}
+
+a {
+    color:rgb(14, 14, 14);
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 500;
+}
+
+img{
+    width: 100%
+}
+
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.bg-cover{
+    background-position: center !important;
+    background-size: center !important;
+}
+
+/*Contact */
+.contact{
+    margin-bottom: 40px;
+}
+
+.contact h3{
+    font-weight: 400;
+    color: rgb(153, 188, 153);
+}
+
+.contact p{
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Experts*/
+.Experts{
+    margin-bottom: 40px;
+}
+
+.Experts h3{
+    font-weight: 400;
+    color: rgb(153, 188, 153);
+}
+
+.Experts p{
+    max-width: 500px;
+    margin: auto;
+}
+
+/*Services*/
+.intro{
+    margin-bottom: 40px;
+}
+
+.intro h4{
+    font-weight: 400;
+    color: rgb(153, 188, 153);
+}
+
+.intro p{
+    max-width: 500px;
+    margin: auto;
+}
+
+/* About Us*/
+.about{
+    margin-bottom: 40px;
+}
+
+.about h3{
+    font-weight: 400;
+    color: rgb(153, 188, 153);
+}
+
+.about p{
+    max-width: 500px;
+    margin: auto;
+}
+
+/* NAVIGATION BAR*/
+
+.top-nav{
+    background-color: rgb(153, 188, 153);
+}
+
+.top-nav p{
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 16px;
+    color: white;
+}
+
+.top-nav i,
+.top-nav span{
+    vertical-align: middle;
+}
+
+.social-links a{
+    width: 30px;
+    height:30px;
+    background-color: rgb(255, 255, 255, 0.4);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 20px;
+    border-radius: 40%;
+}
+
+.social-links a:hover{
+    background-color: white;
+    color: rgb(153, 188, 153);
+}
+
+.navbar{
+    box-shadow: 0px 6px 30px rgba(255, 0, 0, 0.19);
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav.nav-link.active{
+    color:rgb(153, 188, 153);
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 26px;
+    color: rgb(255, 20, 20);
+}
+
+.navbar-brand span{
+    color: green;
+}
+
+.btn{
+    padding: 9px 24px;
+    font-weight: 500;
+}
+
+.btn-brand{
+    background-color: rgb(153, 188, 153);
+    color: white;
+}
+
+
+/* Slides */
+
+.slide1{
+    background:linear-gradient(rgba(9, 32, 50, 0.5),rgba(9, 32, 50, 0.65)), url(../Assets/2735853_1600x0.jpg);
+
+}
+
+.slide2{
+    background:linear-gradient(rgba(9, 32, 50, 0.5),rgba(9, 32, 50, 0.65)), url(../Assets/portrait-of-young-girl-smiling-against-white-background-CUF04074.jpg);
+
+}
+
+.slide3{
+    background:linear-gradient(rgba(9, 32, 50, 0.5),rgba(9, 32, 50, 0.65)), url(../Assets/bald-dentist.jpg);
+
+}
+
+/* INFORMATION BOX */
+
+.info-box{
+    display:flex;
+    align-items:center;
+
+}
+
+.info-box img{
+    width: 90px;
+    margin-right: 24px;
+}
+
+/*Milestone*/
+
+#milestones{
+    background:linear-gradient(rgba(153, 188, 153,0.9),rgba(153, 188, 153,0.9)),url(../Assets/Surgery.jpg);
+
+}
+
+#milestones .display-4,
+#milestones p{
+    color: white;
+}
+
+#milestones .display-4{
+    font-weight: 700;
+}
+
+.btn{
+    padding: 9px 24px;
+    font-weight: 500;
+}
+
+.btn-milestone{
+    background-color: rgb(28, 96, 28);
+    color: white;
+}
+
+/*SERVICES*/
+
+.service-box{
+    padding: 32px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.service-box img{
+    width: 50px;
+}
+
+.service-box h5{
+    margin-top: 27px;
+    margin-bottom: 12px;
+}
+
+/* CONTACT US*/
+
+.service-box .btn-primary {
+    background-color: green;
+}
+
+/* EXPERTS */
+
+.expert-box {
+    text-align: center;
+}
+
+.expert-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.expert-box h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* FOOTER */
+
+footer {
+    background: linear-gradient(0deg, rgba(8, 50, 37, 0.9), rgba(8, 57, 37, 0.9)), #082032;;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer .footer-top {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+footer .navbar-brand {
+    color: #fff;
+}
+
+footer p {
+    color: #ADB3B9;
+}
+
+footer .social-links a {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+footer .contact-info p {
+    color: #ADB3B9;
+    margin-bottom: 5px;
+}
+
+footer .contact-info i {
+    margin-right: 5px;
+}
+
+.nav-link:hover {
+    color: white;
+  }
+
+  .nav-link {
+    color: #cccccc; 
+  }
