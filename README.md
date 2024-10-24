@@ -1,4 +1,4 @@
-# Palestine_Dentsitry
+# Palestine Dentistry
 All HTML, CSS, and Javascript files for my services website. 
 
 The 'Index.html' file is named 'Home.html' in this project. 
